@@ -1,0 +1,6 @@
+title: Aanal Patel
+description: Embedded AI Engineer building edge AI, computer vision, and RAG systems
+url: "https://aanalpatel99.github.io"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
