@@ -4,10 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/main.css">
   {% seo %}
 </head>
 <body>
-  {{ content }}
+  <header class="site-nav">
+    <div class="container site-nav-inner">
+      <a href="/" class="site-nav-brand mono">aanal<span class="accent">.</span>patel</a>
+      <nav class="site-nav-links mono">
+        <a href="/#projects">Work</a>
+        <a href="/#canbus">CAN Bus</a>
+        <a href="/#blog">Blog</a>
+        <a href="/#resume">Resume</a>
+        <a href="/#beyond">Beyond</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer-inner">
+      <p class="mono">&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</p>
+      <div class="site-footer-links">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

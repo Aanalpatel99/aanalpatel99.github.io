@@ -2,4 +2,236 @@
 layout: default
 title: Home
 ---
-<h1>hi</h1>
+
+<section id="hero" class="hero">
+  <div class="container">
+    <div class="hero-avatar">
+      <div class="avatar-scene">
+        <div class="avatar-platform"></div>
+        <img src="/assets/img/avatar-sitting.svg" class="avatar-pose avatar-sitting" alt="Aanal sitting">
+        <img src="/assets/img/avatar-standing.svg" class="avatar-pose avatar-standing" alt="Aanal waving">
+      </div>
+      <div class="speech-bubble" id="speech-bubble">
+        <p id="speech-text">Hi, I'm Aanal — I build systems that run at the edge, from ESP32 firmware to hospital-scale RAG pipelines.</p>
+      </div>
+    </div>
+    <h1>Aanal Patel</h1>
+    <p class="hero-subtitle">Embedded AI &amp; Applied AI Engineer</p>
+    <p class="hero-tagline">
+      3+ years across embedded AI, edge computer vision, and LLM/RAG systems —
+      from ESP32 tensor arenas to hospital automation running under 64 minutes a day.
+    </p>
+    <div class="hero-links">
+      <a href="/resume.pdf" class="btn" download>Download Resume</a>
+      <a href="#projects" class="btn btn-secondary">See Projects</a>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2>Featured Work</h2>
+    <p class="section-intro">Five projects, curated rather than comprehensive — everything else lives in <a href="https://github.com/aanalpatel99" target="_blank" rel="noopener">GitHub</a>.</p>
+
+    <div class="project-grid">
+
+      <!-- spacecraft-canbus: promoted to interactive centerpiece, not a static card -->
+      <article class="card project-card project-card-canbus">
+        <div class="card-body">
+          <span class="tag">Interactive</span>
+          <h3>spacecraft-canbus</h3>
+          <p>A CAN bus health monitor for a 4-node spacecraft subsystem, replayed live below — FSM fault detection across power, attitude, thermal, and propulsion.</p>
+          <a href="#canbus" class="card-link">See it live ↓</a>
+        </div>
+      </article>
+
+      <!-- DRAFT COPY: verify description/tags against repo README -->
+      <article class="card project-card">
+        <div class="card-media placeholder"><span>Demo clip coming soon</span></div>
+        <div class="card-body">
+          <h3>uav-safety-companion</h3>
+          <p>An onboard safety layer for UAV flight — watches sensor and vision input for unsafe conditions and intervenes before a human has to.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">UAV</span>
+          </div>
+          <a href="https://github.com/aanalpatel99/uav-safety-companion" class="card-link" target="_blank" rel="noopener">View repo →</a>
+        </div>
+      </article>
+
+      <!-- DRAFT COPY: verify description/tags against repo README -->
+      <article class="card project-card">
+        <div class="card-media placeholder"><span>Demo clip coming soon</span></div>
+        <div class="card-body">
+          <h3>classical-cv-inspection</h3>
+          <p>Non-ML defect inspection built on classical computer vision — edge/contour analysis standing in where a model would be overkill.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Classical CV</span>
+          </div>
+          <a href="https://github.com/aanalpatel99/classical-cv-inspection" class="card-link" target="_blank" rel="noopener">View repo →</a>
+        </div>
+      </article>
+
+      <!-- DRAFT COPY: verify description/tags against repo README -->
+      <article class="card project-card">
+        <div class="card-media placeholder"><span>Demo clip coming soon</span></div>
+        <div class="card-body">
+          <h3>edge-ai-performance-benchmark</h3>
+          <p>Benchmarking suite comparing inference latency, memory footprint, and accuracy trade-offs for models deployed on constrained edge hardware.</p>
+          <div class="tags">
+            <span class="tag">TensorFlow Lite</span>
+            <span class="tag">Edge AI</span>
+            <span class="tag">Benchmarking</span>
+          </div>
+          <a href="https://github.com/aanalpatel99/edge-ai-performance-benchmark" class="card-link" target="_blank" rel="noopener">View repo →</a>
+        </div>
+      </article>
+
+      <article class="card project-card project-card-private">
+        <div class="card-body">
+          <span class="tag tag-locked">Code private — healthcare data</span>
+          <h3>Mount Sinai — chatDATA</h3>
+          <p>Hospital automation pipeline deployed across 11 acute-care sites. No public repo — the codebase touches PHI, so it stays internal.</p>
+          <div class="metric-row">
+            <div><span class="metric">176 hrs/yr → &lt;64 min</span><span class="metric-label">manual review time</span></div>
+            <div><span class="metric">11</span><span class="metric-label">acute-care sites</span></div>
+            <div><span class="metric">AMMI 2026</span><span class="metric-label">presented at</span></div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <details class="more-work">
+      <summary class="mono">More work</summary>
+      <ul>
+        <li>
+          <a href="https://github.com/aanalpatel99/embedded-ota-firmware-system" target="_blank" rel="noopener">embedded-ota-firmware-system</a>
+          <span class="text-muted">— over-the-air firmware update system for embedded targets.</span>
+          <span class="tag-inline">2023</span>
+        </li>
+        <li>
+          <a href="https://github.com/aanalpatel99/tinyml-facial-recognition-esp32" target="_blank" rel="noopener">tinyml-facial-recognition-esp32</a>
+          <span class="text-muted">— on-device facial recognition running TinyML on an ESP32.</span>
+          <span class="tag-inline">2023</span>
+        </li>
+        <li>
+          <a href="https://github.com/aanalpatel99/OCR-Edge" target="_blank" rel="noopener">OCR-Edge</a>
+          <span class="text-muted">— lightweight OCR pipeline built for edge deployment.</span>
+        </li>
+        <li>
+          <a href="https://github.com/aanalpatel99/completion-bar" target="_blank" rel="noopener">completion-bar</a>
+          <span class="text-muted">— small progress/completion UI component.</span>
+        </li>
+      </ul>
+    </details>
+  </div>
+</section>
+
+<section id="canbus">
+  <div class="container">
+    <h2>Spacecraft CAN Bus Replay</h2>
+    <p class="section-intro">
+      A 4-node CAN bus health monitor — Power, Attitude, Thermal, Propulsion — replaying frame-by-frame
+      through an FSM that trips from <span class="mono">NOMINAL</span> to <span class="mono">DEGRADED</span>
+      to <span class="mono">SAFE_MODE</span> as faults cascade.
+    </p>
+
+    <div class="canbus-app card">
+      <div class="canbus-header">
+        <span id="canbus-state-badge" class="canbus-state-badge" data-state="NOMINAL">NOMINAL</span>
+        <div class="canbus-controls">
+          <button id="canbus-step-back" class="btn btn-secondary" aria-label="Step back">◀</button>
+          <button id="canbus-play" class="btn" aria-label="Play or pause">Play</button>
+          <button id="canbus-step-fwd" class="btn btn-secondary" aria-label="Step forward">▶</button>
+        </div>
+      </div>
+
+      <canvas id="canbus-canvas" width="720" height="320" role="img" aria-label="CAN bus node status visualization"></canvas>
+
+      <input type="range" id="canbus-scrubber" class="canbus-scrubber" min="0" max="0" value="0">
+
+      <div class="canbus-frame-info mono">
+        <span id="canbus-frame-label">Frame 0 / 0</span>
+        <span id="canbus-fault-label" class="canbus-fault-label"></span>
+      </div>
+    </div>
+
+    <p class="text-muted small">
+      Demo data is synthetic — placeholder frames standing in for the real 1,868-frame flight dataset
+      until it's wired in. Swapping <span class="mono">/assets/data/canbus-mock-data.json</span> for the
+      real export is the only change needed to go live.
+    </p>
+  </div>
+</section>
+
+<section id="blog">
+  <div class="container">
+    <h2>Blog</h2>
+    <p class="section-intro">Short technical notes — what broke, why, and what I'd do differently.</p>
+
+    <div class="blog-list">
+      {% for post in site.posts %}
+      <article class="card blog-item">
+        <p class="blog-meta mono">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        <a href="{{ post.url | relative_url }}" class="card-link">Read more →</a>
+      </article>
+      {% else %}
+      <p class="text-muted">Posts coming soon.</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="resume">
+  <div class="container">
+    <h2>Resume</h2>
+    <p class="section-intro">Public version — email and LinkedIn only, no phone number.</p>
+    <a href="/resume.pdf" class="btn" download>Download Resume (PDF)</a>
+  </div>
+</section>
+
+<section id="beyond">
+  <div class="container beyond-layout">
+    <div class="beyond-text">
+      <h2>Beyond the Terminal</h2>
+      <!-- DRAFT COPY: written to match tone, not verified against your actual routine — edit freely -->
+      <p>
+        Outside of engineering I train in Muay Thai and kickboxing a few times a week — drilling the same
+        combination until it stops being a decision and just happens maps onto debugging firmware more
+        than I expected it to. On slower nights I end up reading about the Fermi Paradox, circling the
+        same unresolved question: if the universe is this large, where is everyone? I don't have an
+        answer. I just like that both places reward the same thing engineering does — sitting with a
+        problem that doesn't resolve on the first pass.
+      </p>
+    </div>
+    <div class="beyond-visual" aria-hidden="true">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="100" r="3" fill="var(--accent-bright)"/>
+        <ellipse cx="100" cy="100" rx="90" ry="34" fill="none" stroke="var(--border)" stroke-width="1"/>
+        <ellipse cx="100" cy="100" rx="90" ry="34" fill="none" stroke="var(--accent)" stroke-width="1.5" transform="rotate(60 100 100)"/>
+        <ellipse cx="100" cy="100" rx="90" ry="34" fill="none" stroke="var(--border)" stroke-width="1" transform="rotate(120 100 100)"/>
+        <circle cx="176" cy="100" r="3" fill="var(--accent-bright)"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p class="section-intro">Open to embedded AI, edge AI, and applied ML roles — reach out any of these ways.</p>
+    <div class="contact-links">
+      <a href="mailto:{{ site.author.email }}" class="btn">Email</a>
+      <a href="{{ site.linkedin_url }}" class="btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/{{ site.github_username }}" class="btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<script src="/assets/js/canbus.js"></script>

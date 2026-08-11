@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="post">
+  <div class="container post-container">
+    <a href="/#blog" class="card-link back-link">← Back to blog</a>
+    <p class="blog-meta mono">{{ page.date | date: "%b %-d, %Y" }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.tags %}
+    <div class="tags post-tags">
+      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+</article>

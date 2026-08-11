@@ -1,0 +1,4341 @@
+{
+  "meta": {
+    "source": "synthetic-placeholder",
+    "note": "Mock data standing in for the real 1,868-frame spacecraft-canbus flight dataset. Replace this file with the real export to wire in live data \u2014 schema: frames[].values/status/state/fault.",
+    "nodes": [
+      "power",
+      "attitude",
+      "thermal",
+      "propulsion"
+    ],
+    "units": {
+      "power": "V",
+      "attitude": "deg/s",
+      "thermal": "C",
+      "propulsion": "N"
+    },
+    "frame_count": 240
+  },
+  "frames": [
+    {
+      "i": 0,
+      "t": 0.0,
+      "values": {
+        "power": 12.4,
+        "attitude": 0.0,
+        "thermal": 21.0,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 1,
+      "t": 0.25,
+      "values": {
+        "power": 12.408,
+        "attitude": 0.002,
+        "thermal": 21.075,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 2,
+      "t": 0.5,
+      "values": {
+        "power": 12.417,
+        "attitude": 0.004,
+        "thermal": 21.15,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 3,
+      "t": 0.75,
+      "values": {
+        "power": 12.425,
+        "attitude": 0.007,
+        "thermal": 21.224,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 4,
+      "t": 1.0,
+      "values": {
+        "power": 12.433,
+        "attitude": 0.009,
+        "thermal": 21.298,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 5,
+      "t": 1.25,
+      "values": {
+        "power": 12.44,
+        "attitude": 0.011,
+        "thermal": 21.371,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 6,
+      "t": 1.5,
+      "values": {
+        "power": 12.448,
+        "attitude": 0.012,
+        "thermal": 21.443,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 7,
+      "t": 1.75,
+      "values": {
+        "power": 12.455,
+        "attitude": 0.014,
+        "thermal": 21.514,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 8,
+      "t": 2.0,
+      "values": {
+        "power": 12.462,
+        "attitude": 0.016,
+        "thermal": 21.584,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 9,
+      "t": 2.25,
+      "values": {
+        "power": 12.468,
+        "attitude": 0.017,
+        "thermal": 21.652,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 10,
+      "t": 2.5,
+      "values": {
+        "power": 12.474,
+        "attitude": 0.018,
+        "thermal": 21.719,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 11,
+      "t": 2.75,
+      "values": {
+        "power": 12.479,
+        "attitude": 0.019,
+        "thermal": 21.784,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 12,
+      "t": 3.0,
+      "values": {
+        "power": 12.484,
+        "attitude": 0.019,
+        "thermal": 21.847,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 13,
+      "t": 3.25,
+      "values": {
+        "power": 12.488,
+        "attitude": 0.02,
+        "thermal": 21.908,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 14,
+      "t": 3.5,
+      "values": {
+        "power": 12.492,
+        "attitude": 0.02,
+        "thermal": 21.966,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 15,
+      "t": 3.75,
+      "values": {
+        "power": 12.495,
+        "attitude": 0.02,
+        "thermal": 22.022,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 16,
+      "t": 4.0,
+      "values": {
+        "power": 12.497,
+        "attitude": 0.02,
+        "thermal": 22.076,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 17,
+      "t": 4.25,
+      "values": {
+        "power": 12.499,
+        "attitude": 0.019,
+        "thermal": 22.127,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 18,
+      "t": 4.5,
+      "values": {
+        "power": 12.5,
+        "attitude": 0.018,
+        "thermal": 22.175,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 19,
+      "t": 4.75,
+      "values": {
+        "power": 12.5,
+        "attitude": 0.017,
+        "thermal": 22.22,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 20,
+      "t": 5.0,
+      "values": {
+        "power": 12.5,
+        "attitude": 0.016,
+        "thermal": 22.262,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 21,
+      "t": 5.25,
+      "values": {
+        "power": 12.498,
+        "attitude": 0.014,
+        "thermal": 22.301,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 22,
+      "t": 5.5,
+      "values": {
+        "power": 12.497,
+        "attitude": 0.013,
+        "thermal": 22.337,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 23,
+      "t": 5.75,
+      "values": {
+        "power": 12.494,
+        "attitude": 0.011,
+        "thermal": 22.369,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 24,
+      "t": 6.0,
+      "values": {
+        "power": 12.491,
+        "attitude": 0.009,
+        "thermal": 22.398,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 25,
+      "t": 6.25,
+      "values": {
+        "power": 12.487,
+        "attitude": 0.007,
+        "thermal": 22.423,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 26,
+      "t": 6.5,
+      "values": {
+        "power": 12.483,
+        "attitude": 0.005,
+        "thermal": 22.445,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 27,
+      "t": 6.75,
+      "values": {
+        "power": 12.478,
+        "attitude": 0.003,
+        "thermal": 22.464,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 28,
+      "t": 7.0,
+      "values": {
+        "power": 12.472,
+        "attitude": 0.001,
+        "thermal": 22.478,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 29,
+      "t": 7.25,
+      "values": {
+        "power": 12.466,
+        "attitude": -0.002,
+        "thermal": 22.489,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 30,
+      "t": 7.5,
+      "values": {
+        "power": 12.46,
+        "attitude": -0.004,
+        "thermal": 22.496,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 31,
+      "t": 7.75,
+      "values": {
+        "power": 12.453,
+        "attitude": -0.006,
+        "thermal": 22.5,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 32,
+      "t": 8.0,
+      "values": {
+        "power": 12.446,
+        "attitude": -0.008,
+        "thermal": 22.499,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 33,
+      "t": 8.25,
+      "values": {
+        "power": 12.438,
+        "attitude": -0.01,
+        "thermal": 22.495,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 34,
+      "t": 8.5,
+      "values": {
+        "power": 12.43,
+        "attitude": -0.012,
+        "thermal": 22.487,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 35,
+      "t": 8.75,
+      "values": {
+        "power": 12.422,
+        "attitude": -0.014,
+        "thermal": 22.476,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 36,
+      "t": 9.0,
+      "values": {
+        "power": 12.414,
+        "attitude": -0.015,
+        "thermal": 22.461,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 37,
+      "t": 9.25,
+      "values": {
+        "power": 12.406,
+        "attitude": -0.016,
+        "thermal": 22.442,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 38,
+      "t": 9.5,
+      "values": {
+        "power": 12.397,
+        "attitude": -0.018,
+        "thermal": 22.419,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 39,
+      "t": 9.75,
+      "values": {
+        "power": 12.389,
+        "attitude": -0.019,
+        "thermal": 22.393,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 40,
+      "t": 10.0,
+      "values": {
+        "power": 12.381,
+        "attitude": -0.019,
+        "thermal": 22.364,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 41,
+      "t": 10.25,
+      "values": {
+        "power": 12.373,
+        "attitude": -0.02,
+        "thermal": 22.331,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 42,
+      "t": 10.5,
+      "values": {
+        "power": 12.365,
+        "attitude": -0.02,
+        "thermal": 22.295,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 43,
+      "t": 10.75,
+      "values": {
+        "power": 12.357,
+        "attitude": -0.02,
+        "thermal": 22.255,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 44,
+      "t": 11.0,
+      "values": {
+        "power": 12.35,
+        "attitude": -0.02,
+        "thermal": 22.213,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 45,
+      "t": 11.25,
+      "values": {
+        "power": 12.343,
+        "attitude": -0.019,
+        "thermal": 22.167,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 46,
+      "t": 11.5,
+      "values": {
+        "power": 12.336,
+        "attitude": -0.018,
+        "thermal": 22.119,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 47,
+      "t": 11.75,
+      "values": {
+        "power": 12.33,
+        "attitude": -0.017,
+        "thermal": 22.067,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 48,
+      "t": 12.0,
+      "values": {
+        "power": 12.324,
+        "attitude": -0.016,
+        "thermal": 22.013,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 49,
+      "t": 12.25,
+      "values": {
+        "power": 12.319,
+        "attitude": -0.015,
+        "thermal": 21.957,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 50,
+      "t": 12.5,
+      "values": {
+        "power": 12.315,
+        "attitude": -0.013,
+        "thermal": 21.898,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 51,
+      "t": 12.75,
+      "values": {
+        "power": 12.311,
+        "attitude": -0.012,
+        "thermal": 21.837,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 52,
+      "t": 13.0,
+      "values": {
+        "power": 12.307,
+        "attitude": -0.01,
+        "thermal": 21.773,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 53,
+      "t": 13.25,
+      "values": {
+        "power": 12.304,
+        "attitude": -0.008,
+        "thermal": 21.708,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 54,
+      "t": 13.5,
+      "values": {
+        "power": 12.302,
+        "attitude": -0.006,
+        "thermal": 21.641,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 55,
+      "t": 13.75,
+      "values": {
+        "power": 12.301,
+        "attitude": -0.003,
+        "thermal": 21.572,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 56,
+      "t": 14.0,
+      "values": {
+        "power": 12.3,
+        "attitude": -0.001,
+        "thermal": 21.502,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 57,
+      "t": 14.25,
+      "values": {
+        "power": 12.3,
+        "attitude": 0.001,
+        "thermal": 21.431,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 58,
+      "t": 14.5,
+      "values": {
+        "power": 12.301,
+        "attitude": 0.003,
+        "thermal": 21.359,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 59,
+      "t": 14.75,
+      "values": {
+        "power": 12.302,
+        "attitude": 0.005,
+        "thermal": 21.286,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 60,
+      "t": 15.0,
+      "values": {
+        "power": 12.304,
+        "attitude": 0.007,
+        "thermal": 21.212,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 21.2C"
+    },
+    {
+      "i": 61,
+      "t": 15.25,
+      "values": {
+        "power": 12.307,
+        "attitude": 0.009,
+        "thermal": 21.651,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 21.7C"
+    },
+    {
+      "i": 62,
+      "t": 15.5,
+      "values": {
+        "power": 12.31,
+        "attitude": 0.011,
+        "thermal": 22.091,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 22.1C"
+    },
+    {
+      "i": 63,
+      "t": 15.75,
+      "values": {
+        "power": 12.314,
+        "attitude": 0.013,
+        "thermal": 22.53,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 22.5C"
+    },
+    {
+      "i": 64,
+      "t": 16.0,
+      "values": {
+        "power": 12.319,
+        "attitude": 0.015,
+        "thermal": 22.97,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 23.0C"
+    },
+    {
+      "i": 65,
+      "t": 16.25,
+      "values": {
+        "power": 12.324,
+        "attitude": 0.016,
+        "thermal": 23.409,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 23.4C"
+    },
+    {
+      "i": 66,
+      "t": 16.5,
+      "values": {
+        "power": 12.329,
+        "attitude": 0.017,
+        "thermal": 23.849,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 23.8C"
+    },
+    {
+      "i": 67,
+      "t": 16.75,
+      "values": {
+        "power": 12.336,
+        "attitude": 0.018,
+        "thermal": 24.29,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 24.3C"
+    },
+    {
+      "i": 68,
+      "t": 17.0,
+      "values": {
+        "power": 12.342,
+        "attitude": 0.019,
+        "thermal": 24.731,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 24.7C"
+    },
+    {
+      "i": 69,
+      "t": 17.25,
+      "values": {
+        "power": 12.349,
+        "attitude": 0.02,
+        "thermal": 25.173,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 25.2C"
+    },
+    {
+      "i": 70,
+      "t": 17.5,
+      "values": {
+        "power": 12.357,
+        "attitude": 0.02,
+        "thermal": 25.617,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 25.6C"
+    },
+    {
+      "i": 71,
+      "t": 17.75,
+      "values": {
+        "power": 12.364,
+        "attitude": 0.02,
+        "thermal": 26.061,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 26.1C"
+    },
+    {
+      "i": 72,
+      "t": 18.0,
+      "values": {
+        "power": 12.372,
+        "attitude": 0.02,
+        "thermal": 26.508,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 26.5C"
+    },
+    {
+      "i": 73,
+      "t": 18.25,
+      "values": {
+        "power": 12.38,
+        "attitude": 0.019,
+        "thermal": 26.956,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 27.0C"
+    },
+    {
+      "i": 74,
+      "t": 18.5,
+      "values": {
+        "power": 12.388,
+        "attitude": 0.019,
+        "thermal": 27.405,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 27.4C"
+    },
+    {
+      "i": 75,
+      "t": 18.75,
+      "values": {
+        "power": 12.397,
+        "attitude": 0.018,
+        "thermal": 27.857,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 27.9C"
+    },
+    {
+      "i": 76,
+      "t": 19.0,
+      "values": {
+        "power": 12.405,
+        "attitude": 0.017,
+        "thermal": 28.311,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 28.3C"
+    },
+    {
+      "i": 77,
+      "t": 19.25,
+      "values": {
+        "power": 12.413,
+        "attitude": 0.015,
+        "thermal": 28.767,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 28.8C"
+    },
+    {
+      "i": 78,
+      "t": 19.5,
+      "values": {
+        "power": 12.422,
+        "attitude": 0.014,
+        "thermal": 29.225,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 29.2C"
+    },
+    {
+      "i": 79,
+      "t": 19.75,
+      "values": {
+        "power": 12.43,
+        "attitude": 0.012,
+        "thermal": 29.687,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 29.7C"
+    },
+    {
+      "i": 80,
+      "t": 20.0,
+      "values": {
+        "power": 12.437,
+        "attitude": 0.01,
+        "thermal": 30.151,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 30.2C"
+    },
+    {
+      "i": 81,
+      "t": 20.25,
+      "values": {
+        "power": 12.445,
+        "attitude": 0.008,
+        "thermal": 30.617,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 30.6C"
+    },
+    {
+      "i": 82,
+      "t": 20.5,
+      "values": {
+        "power": 12.452,
+        "attitude": 0.006,
+        "thermal": 31.087,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 31.1C"
+    },
+    {
+      "i": 83,
+      "t": 20.75,
+      "values": {
+        "power": 12.459,
+        "attitude": 0.004,
+        "thermal": 31.56,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 31.6C"
+    },
+    {
+      "i": 84,
+      "t": 21.0,
+      "values": {
+        "power": 12.466,
+        "attitude": 0.002,
+        "thermal": 32.035,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 32.0C"
+    },
+    {
+      "i": 85,
+      "t": 21.25,
+      "values": {
+        "power": 12.472,
+        "attitude": -0.0,
+        "thermal": 32.515,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 32.5C"
+    },
+    {
+      "i": 86,
+      "t": 21.5,
+      "values": {
+        "power": 12.477,
+        "attitude": -0.003,
+        "thermal": 32.997,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 33.0C"
+    },
+    {
+      "i": 87,
+      "t": 21.75,
+      "values": {
+        "power": 12.482,
+        "attitude": -0.005,
+        "thermal": 33.483,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 33.5C"
+    },
+    {
+      "i": 88,
+      "t": 22.0,
+      "values": {
+        "power": 12.487,
+        "attitude": -0.007,
+        "thermal": 33.973,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 34.0C"
+    },
+    {
+      "i": 89,
+      "t": 22.25,
+      "values": {
+        "power": 12.491,
+        "attitude": -0.009,
+        "thermal": 34.466,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 34.5C"
+    },
+    {
+      "i": 90,
+      "t": 22.5,
+      "values": {
+        "power": 12.494,
+        "attitude": -0.011,
+        "thermal": 34.962,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 35.0C"
+    },
+    {
+      "i": 91,
+      "t": 22.75,
+      "values": {
+        "power": 12.496,
+        "attitude": -0.013,
+        "thermal": 35.463,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 35.5C"
+    },
+    {
+      "i": 92,
+      "t": 23.0,
+      "values": {
+        "power": 12.498,
+        "attitude": -0.014,
+        "thermal": 35.967,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 36.0C"
+    },
+    {
+      "i": 93,
+      "t": 23.25,
+      "values": {
+        "power": 12.499,
+        "attitude": -0.016,
+        "thermal": 36.474,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 36.5C"
+    },
+    {
+      "i": 94,
+      "t": 23.5,
+      "values": {
+        "power": 12.5,
+        "attitude": -0.017,
+        "thermal": 36.986,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "THERMAL over-temp trending \u2014 37.0C"
+    },
+    {
+      "i": 95,
+      "t": 23.75,
+      "values": {
+        "power": 12.5,
+        "attitude": -0.018,
+        "thermal": 38.5,
+        "propulsion": 0.474
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 96,
+      "t": 24.0,
+      "values": {
+        "power": 12.499,
+        "attitude": -0.019,
+        "thermal": 38.386,
+        "propulsion": 0.565
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 97,
+      "t": 24.25,
+      "values": {
+        "power": 12.497,
+        "attitude": -0.02,
+        "thermal": 38.271,
+        "propulsion": 0.638
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 98,
+      "t": 24.5,
+      "values": {
+        "power": 12.495,
+        "attitude": -0.02,
+        "thermal": 38.157,
+        "propulsion": 0.685
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 99,
+      "t": 24.75,
+      "values": {
+        "power": 12.492,
+        "attitude": -0.02,
+        "thermal": 38.043,
+        "propulsion": 0.7
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 100,
+      "t": 25.0,
+      "values": {
+        "power": 12.489,
+        "attitude": -0.02,
+        "thermal": 37.929,
+        "propulsion": 0.682
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 101,
+      "t": 25.25,
+      "values": {
+        "power": 12.485,
+        "attitude": -0.019,
+        "thermal": 37.814,
+        "propulsion": 0.633
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 102,
+      "t": 25.5,
+      "values": {
+        "power": 12.48,
+        "attitude": -0.019,
+        "thermal": 37.7,
+        "propulsion": 0.559
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 103,
+      "t": 25.75,
+      "values": {
+        "power": 12.475,
+        "attitude": -0.018,
+        "thermal": 37.586,
+        "propulsion": 0.467
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 104,
+      "t": 26.0,
+      "values": {
+        "power": 12.469,
+        "attitude": -0.017,
+        "thermal": 37.471,
+        "propulsion": 0.367
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 105,
+      "t": 26.25,
+      "values": {
+        "power": 12.462,
+        "attitude": -0.016,
+        "thermal": 37.357,
+        "propulsion": 0.272
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 106,
+      "t": 26.5,
+      "values": {
+        "power": 12.456,
+        "attitude": -0.014,
+        "thermal": 37.243,
+        "propulsion": 0.19
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 107,
+      "t": 26.75,
+      "values": {
+        "power": 12.449,
+        "attitude": -0.013,
+        "thermal": 37.129,
+        "propulsion": 0.131
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 108,
+      "t": 27.0,
+      "values": {
+        "power": 12.441,
+        "attitude": -0.011,
+        "thermal": 37.014,
+        "propulsion": 0.102
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 109,
+      "t": 27.25,
+      "values": {
+        "power": 12.433,
+        "attitude": -0.009,
+        "thermal": 36.9,
+        "propulsion": 0.106
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 110,
+      "t": 27.5,
+      "values": {
+        "power": 12.426,
+        "attitude": -0.007,
+        "thermal": 36.786,
+        "propulsion": 0.142
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 111,
+      "t": 27.75,
+      "values": {
+        "power": 12.417,
+        "attitude": -0.005,
+        "thermal": 36.671,
+        "propulsion": 0.207
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 112,
+      "t": 28.0,
+      "values": {
+        "power": 12.409,
+        "attitude": -0.002,
+        "thermal": 36.557,
+        "propulsion": 0.293
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 113,
+      "t": 28.25,
+      "values": {
+        "power": 12.401,
+        "attitude": -0.0,
+        "thermal": 36.443,
+        "propulsion": 0.39
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 114,
+      "t": 28.5,
+      "values": {
+        "power": 12.392,
+        "attitude": 0.002,
+        "thermal": 36.329,
+        "propulsion": 0.489
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 115,
+      "t": 28.75,
+      "values": {
+        "power": 12.384,
+        "attitude": 0.004,
+        "thermal": 36.214,
+        "propulsion": 0.578
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 116,
+      "t": 29.0,
+      "values": {
+        "power": 12.376,
+        "attitude": 0.006,
+        "thermal": 36.1,
+        "propulsion": 0.647
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 117,
+      "t": 29.25,
+      "values": {
+        "power": 12.368,
+        "attitude": 0.008,
+        "thermal": 35.986,
+        "propulsion": 0.689
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 118,
+      "t": 29.5,
+      "values": {
+        "power": 12.36,
+        "attitude": 0.01,
+        "thermal": 35.871,
+        "propulsion": 0.699
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 119,
+      "t": 29.75,
+      "values": {
+        "power": 12.353,
+        "attitude": 0.012,
+        "thermal": 35.757,
+        "propulsion": 0.677
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 120,
+      "t": 30.0,
+      "values": {
+        "power": 12.346,
+        "attitude": 0.014,
+        "thermal": 35.643,
+        "propulsion": 0.624
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 121,
+      "t": 30.25,
+      "values": {
+        "power": 12.339,
+        "attitude": 0.015,
+        "thermal": 35.529,
+        "propulsion": 0.546
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 122,
+      "t": 30.5,
+      "values": {
+        "power": 12.332,
+        "attitude": 0.017,
+        "thermal": 35.414,
+        "propulsion": 0.452
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 123,
+      "t": 30.75,
+      "values": {
+        "power": 12.327,
+        "attitude": 0.018,
+        "thermal": 35.3,
+        "propulsion": 0.352
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 124,
+      "t": 31.0,
+      "values": {
+        "power": 12.321,
+        "attitude": 0.019,
+        "thermal": 35.186,
+        "propulsion": 0.258
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 125,
+      "t": 31.25,
+      "values": {
+        "power": 12.316,
+        "attitude": 0.019,
+        "thermal": 35.071,
+        "propulsion": 0.179
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 126,
+      "t": 31.5,
+      "values": {
+        "power": 12.312,
+        "attitude": 0.02,
+        "thermal": 34.957,
+        "propulsion": 0.125
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 127,
+      "t": 31.75,
+      "values": {
+        "power": 12.308,
+        "attitude": 0.02,
+        "thermal": 34.843,
+        "propulsion": 0.101
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 128,
+      "t": 32.0,
+      "values": {
+        "power": 12.305,
+        "attitude": 0.02,
+        "thermal": 34.729,
+        "propulsion": 0.11
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 129,
+      "t": 32.25,
+      "values": {
+        "power": 12.303,
+        "attitude": 0.02,
+        "thermal": 34.614,
+        "propulsion": 0.15
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "FAULT"
+      },
+      "state": "SAFE_MODE",
+      "fault": "PROPULSION feedback loss \u2014 entering SAFE_MODE"
+    },
+    {
+      "i": 130,
+      "t": 32.5,
+      "values": {
+        "power": 12.301,
+        "attitude": 0.019,
+        "thermal": 34.5,
+        "propulsion": 0.4
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 34.5C"
+    },
+    {
+      "i": 131,
+      "t": 32.75,
+      "values": {
+        "power": 12.3,
+        "attitude": 0.018,
+        "thermal": 34.1,
+        "propulsion": 0.387
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 34.1C"
+    },
+    {
+      "i": 132,
+      "t": 33.0,
+      "values": {
+        "power": 12.3,
+        "attitude": 0.017,
+        "thermal": 33.7,
+        "propulsion": 0.373
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 33.7C"
+    },
+    {
+      "i": 133,
+      "t": 33.25,
+      "values": {
+        "power": 12.3,
+        "attitude": 0.016,
+        "thermal": 33.3,
+        "propulsion": 0.36
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 33.3C"
+    },
+    {
+      "i": 134,
+      "t": 33.5,
+      "values": {
+        "power": 12.301,
+        "attitude": 0.015,
+        "thermal": 32.9,
+        "propulsion": 0.347
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 32.9C"
+    },
+    {
+      "i": 135,
+      "t": 33.75,
+      "values": {
+        "power": 12.303,
+        "attitude": 0.013,
+        "thermal": 32.5,
+        "propulsion": 0.333
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 32.5C"
+    },
+    {
+      "i": 136,
+      "t": 34.0,
+      "values": {
+        "power": 12.306,
+        "attitude": 0.011,
+        "thermal": 32.1,
+        "propulsion": 0.32
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 32.1C"
+    },
+    {
+      "i": 137,
+      "t": 34.25,
+      "values": {
+        "power": 12.309,
+        "attitude": 0.009,
+        "thermal": 31.7,
+        "propulsion": 0.307
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 31.7C"
+    },
+    {
+      "i": 138,
+      "t": 34.5,
+      "values": {
+        "power": 12.312,
+        "attitude": 0.007,
+        "thermal": 31.3,
+        "propulsion": 0.293
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 31.3C"
+    },
+    {
+      "i": 139,
+      "t": 34.75,
+      "values": {
+        "power": 12.317,
+        "attitude": 0.005,
+        "thermal": 30.9,
+        "propulsion": 0.28
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 30.9C"
+    },
+    {
+      "i": 140,
+      "t": 35.0,
+      "values": {
+        "power": 12.322,
+        "attitude": 0.003,
+        "thermal": 30.5,
+        "propulsion": 0.267
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 30.5C"
+    },
+    {
+      "i": 141,
+      "t": 35.25,
+      "values": {
+        "power": 12.327,
+        "attitude": 0.001,
+        "thermal": 30.1,
+        "propulsion": 0.253
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 30.1C"
+    },
+    {
+      "i": 142,
+      "t": 35.5,
+      "values": {
+        "power": 12.333,
+        "attitude": -0.001,
+        "thermal": 29.7,
+        "propulsion": 0.24
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 29.7C"
+    },
+    {
+      "i": 143,
+      "t": 35.75,
+      "values": {
+        "power": 12.34,
+        "attitude": -0.004,
+        "thermal": 29.3,
+        "propulsion": 0.227
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 29.3C"
+    },
+    {
+      "i": 144,
+      "t": 36.0,
+      "values": {
+        "power": 12.346,
+        "attitude": -0.006,
+        "thermal": 28.9,
+        "propulsion": 0.213
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 28.9C"
+    },
+    {
+      "i": 145,
+      "t": 36.25,
+      "values": {
+        "power": 12.354,
+        "attitude": -0.008,
+        "thermal": 28.5,
+        "propulsion": 0.2
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 28.5C"
+    },
+    {
+      "i": 146,
+      "t": 36.5,
+      "values": {
+        "power": 12.361,
+        "attitude": -0.01,
+        "thermal": 28.1,
+        "propulsion": 0.187
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 28.1C"
+    },
+    {
+      "i": 147,
+      "t": 36.75,
+      "values": {
+        "power": 12.369,
+        "attitude": -0.012,
+        "thermal": 27.7,
+        "propulsion": 0.173
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 27.7C"
+    },
+    {
+      "i": 148,
+      "t": 37.0,
+      "values": {
+        "power": 12.377,
+        "attitude": -0.013,
+        "thermal": 27.3,
+        "propulsion": 0.16
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 27.3C"
+    },
+    {
+      "i": 149,
+      "t": 37.25,
+      "values": {
+        "power": 12.385,
+        "attitude": -0.015,
+        "thermal": 26.9,
+        "propulsion": 0.147
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 26.9C"
+    },
+    {
+      "i": 150,
+      "t": 37.5,
+      "values": {
+        "power": 12.393,
+        "attitude": -0.016,
+        "thermal": 26.5,
+        "propulsion": 0.133
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 26.5C"
+    },
+    {
+      "i": 151,
+      "t": 37.75,
+      "values": {
+        "power": 12.402,
+        "attitude": -0.018,
+        "thermal": 26.1,
+        "propulsion": 0.12
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 26.1C"
+    },
+    {
+      "i": 152,
+      "t": 38.0,
+      "values": {
+        "power": 12.41,
+        "attitude": -0.018,
+        "thermal": 25.7,
+        "propulsion": 0.107
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 25.7C"
+    },
+    {
+      "i": 153,
+      "t": 38.25,
+      "values": {
+        "power": 12.418,
+        "attitude": -0.019,
+        "thermal": 25.3,
+        "propulsion": 0.093
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 25.3C"
+    },
+    {
+      "i": 154,
+      "t": 38.5,
+      "values": {
+        "power": 12.426,
+        "attitude": -0.02,
+        "thermal": 24.9,
+        "propulsion": 0.08
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 24.9C"
+    },
+    {
+      "i": 155,
+      "t": 38.75,
+      "values": {
+        "power": 12.434,
+        "attitude": -0.02,
+        "thermal": 24.5,
+        "propulsion": 0.067
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 24.5C"
+    },
+    {
+      "i": 156,
+      "t": 39.0,
+      "values": {
+        "power": 12.442,
+        "attitude": -0.02,
+        "thermal": 24.1,
+        "propulsion": 0.053
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 24.1C"
+    },
+    {
+      "i": 157,
+      "t": 39.25,
+      "values": {
+        "power": 12.449,
+        "attitude": -0.02,
+        "thermal": 23.7,
+        "propulsion": 0.04
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 23.7C"
+    },
+    {
+      "i": 158,
+      "t": 39.5,
+      "values": {
+        "power": 12.456,
+        "attitude": -0.019,
+        "thermal": 23.3,
+        "propulsion": 0.027
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 23.3C"
+    },
+    {
+      "i": 159,
+      "t": 39.75,
+      "values": {
+        "power": 12.463,
+        "attitude": -0.019,
+        "thermal": 22.9,
+        "propulsion": 0.013
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "DEGRADED",
+        "propulsion": "NOMINAL"
+      },
+      "state": "DEGRADED",
+      "fault": "Recovering \u2014 THERMAL still elevated at 22.9C"
+    },
+    {
+      "i": 160,
+      "t": 40.0,
+      "values": {
+        "power": 12.469,
+        "attitude": -0.018,
+        "thermal": 22.484,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 161,
+      "t": 40.25,
+      "values": {
+        "power": 12.475,
+        "attitude": -0.016,
+        "thermal": 22.471,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 162,
+      "t": 40.5,
+      "values": {
+        "power": 12.48,
+        "attitude": -0.015,
+        "thermal": 22.455,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 163,
+      "t": 40.75,
+      "values": {
+        "power": 12.485,
+        "attitude": -0.013,
+        "thermal": 22.435,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 164,
+      "t": 41.0,
+      "values": {
+        "power": 12.489,
+        "attitude": -0.012,
+        "thermal": 22.411,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 165,
+      "t": 41.25,
+      "values": {
+        "power": 12.493,
+        "attitude": -0.01,
+        "thermal": 22.384,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 166,
+      "t": 41.5,
+      "values": {
+        "power": 12.495,
+        "attitude": -0.008,
+        "thermal": 22.353,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 167,
+      "t": 41.75,
+      "values": {
+        "power": 12.498,
+        "attitude": -0.006,
+        "thermal": 22.319,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 168,
+      "t": 42.0,
+      "values": {
+        "power": 12.499,
+        "attitude": -0.004,
+        "thermal": 22.282,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 169,
+      "t": 42.25,
+      "values": {
+        "power": 12.5,
+        "attitude": -0.001,
+        "thermal": 22.241,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 170,
+      "t": 42.5,
+      "values": {
+        "power": 12.5,
+        "attitude": 0.001,
+        "thermal": 22.198,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 171,
+      "t": 42.75,
+      "values": {
+        "power": 12.499,
+        "attitude": 0.003,
+        "thermal": 22.151,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 172,
+      "t": 43.0,
+      "values": {
+        "power": 12.498,
+        "attitude": 0.005,
+        "thermal": 22.102,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 173,
+      "t": 43.25,
+      "values": {
+        "power": 12.496,
+        "attitude": 0.007,
+        "thermal": 22.049,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 174,
+      "t": 43.5,
+      "values": {
+        "power": 12.493,
+        "attitude": 0.009,
+        "thermal": 21.994,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 175,
+      "t": 43.75,
+      "values": {
+        "power": 12.49,
+        "attitude": 0.011,
+        "thermal": 21.937,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 176,
+      "t": 44.0,
+      "values": {
+        "power": 12.486,
+        "attitude": 0.013,
+        "thermal": 21.877,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 177,
+      "t": 44.25,
+      "values": {
+        "power": 12.482,
+        "attitude": 0.015,
+        "thermal": 21.815,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 178,
+      "t": 44.5,
+      "values": {
+        "power": 12.477,
+        "attitude": 0.016,
+        "thermal": 21.752,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 179,
+      "t": 44.75,
+      "values": {
+        "power": 12.471,
+        "attitude": 0.017,
+        "thermal": 21.686,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 180,
+      "t": 45.0,
+      "values": {
+        "power": 12.465,
+        "attitude": 0.018,
+        "thermal": 21.618,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 181,
+      "t": 45.25,
+      "values": {
+        "power": 12.458,
+        "attitude": 0.019,
+        "thermal": 21.549,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 182,
+      "t": 45.5,
+      "values": {
+        "power": 12.452,
+        "attitude": 0.02,
+        "thermal": 21.479,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 183,
+      "t": 45.75,
+      "values": {
+        "power": 12.444,
+        "attitude": 0.02,
+        "thermal": 21.407,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 184,
+      "t": 46.0,
+      "values": {
+        "power": 12.437,
+        "attitude": 0.02,
+        "thermal": 21.334,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 185,
+      "t": 46.25,
+      "values": {
+        "power": 12.429,
+        "attitude": 0.02,
+        "thermal": 21.261,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 186,
+      "t": 46.5,
+      "values": {
+        "power": 12.421,
+        "attitude": 0.019,
+        "thermal": 21.187,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 187,
+      "t": 46.75,
+      "values": {
+        "power": 12.412,
+        "attitude": 0.019,
+        "thermal": 21.112,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 188,
+      "t": 47.0,
+      "values": {
+        "power": 12.404,
+        "attitude": 0.018,
+        "thermal": 21.037,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 189,
+      "t": 47.25,
+      "values": {
+        "power": 12.396,
+        "attitude": 0.017,
+        "thermal": 20.962,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 190,
+      "t": 47.5,
+      "values": {
+        "power": 12.387,
+        "attitude": 0.015,
+        "thermal": 20.887,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 191,
+      "t": 47.75,
+      "values": {
+        "power": 12.379,
+        "attitude": 0.014,
+        "thermal": 20.813,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 192,
+      "t": 48.0,
+      "values": {
+        "power": 12.371,
+        "attitude": 0.012,
+        "thermal": 20.739,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 193,
+      "t": 48.25,
+      "values": {
+        "power": 12.363,
+        "attitude": 0.01,
+        "thermal": 20.665,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 194,
+      "t": 48.5,
+      "values": {
+        "power": 12.356,
+        "attitude": 0.008,
+        "thermal": 20.592,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 195,
+      "t": 48.75,
+      "values": {
+        "power": 12.348,
+        "attitude": 0.006,
+        "thermal": 20.521,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 196,
+      "t": 49.0,
+      "values": {
+        "power": 12.341,
+        "attitude": 0.004,
+        "thermal": 20.45,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 197,
+      "t": 49.25,
+      "values": {
+        "power": 12.335,
+        "attitude": 0.002,
+        "thermal": 20.381,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 198,
+      "t": 49.5,
+      "values": {
+        "power": 12.329,
+        "attitude": -0.0,
+        "thermal": 20.314,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 199,
+      "t": 49.75,
+      "values": {
+        "power": 12.323,
+        "attitude": -0.002,
+        "thermal": 20.248,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 200,
+      "t": 50.0,
+      "values": {
+        "power": 12.318,
+        "attitude": -0.005,
+        "thermal": 20.184,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 201,
+      "t": 50.25,
+      "values": {
+        "power": 12.314,
+        "attitude": -0.007,
+        "thermal": 20.122,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 202,
+      "t": 50.5,
+      "values": {
+        "power": 12.31,
+        "attitude": -0.009,
+        "thermal": 20.062,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 203,
+      "t": 50.75,
+      "values": {
+        "power": 12.306,
+        "attitude": -0.011,
+        "thermal": 20.005,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 204,
+      "t": 51.0,
+      "values": {
+        "power": 12.304,
+        "attitude": -0.013,
+        "thermal": 19.95,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 205,
+      "t": 51.25,
+      "values": {
+        "power": 12.302,
+        "attitude": -0.014,
+        "thermal": 19.898,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 206,
+      "t": 51.5,
+      "values": {
+        "power": 12.301,
+        "attitude": -0.016,
+        "thermal": 19.848,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 207,
+      "t": 51.75,
+      "values": {
+        "power": 12.3,
+        "attitude": -0.017,
+        "thermal": 19.802,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 208,
+      "t": 52.0,
+      "values": {
+        "power": 12.3,
+        "attitude": -0.018,
+        "thermal": 19.758,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 209,
+      "t": 52.25,
+      "values": {
+        "power": 12.301,
+        "attitude": -0.019,
+        "thermal": 19.718,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 210,
+      "t": 52.5,
+      "values": {
+        "power": 12.302,
+        "attitude": -0.019,
+        "thermal": 19.68,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 211,
+      "t": 52.75,
+      "values": {
+        "power": 12.305,
+        "attitude": -0.02,
+        "thermal": 19.646,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 212,
+      "t": 53.0,
+      "values": {
+        "power": 12.307,
+        "attitude": -0.02,
+        "thermal": 19.616,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 213,
+      "t": 53.25,
+      "values": {
+        "power": 12.311,
+        "attitude": -0.02,
+        "thermal": 19.589,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 214,
+      "t": 53.5,
+      "values": {
+        "power": 12.315,
+        "attitude": -0.02,
+        "thermal": 19.565,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 215,
+      "t": 53.75,
+      "values": {
+        "power": 12.32,
+        "attitude": -0.019,
+        "thermal": 19.545,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 216,
+      "t": 54.0,
+      "values": {
+        "power": 12.325,
+        "attitude": -0.018,
+        "thermal": 19.529,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 217,
+      "t": 54.25,
+      "values": {
+        "power": 12.331,
+        "attitude": -0.017,
+        "thermal": 19.516,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 218,
+      "t": 54.5,
+      "values": {
+        "power": 12.337,
+        "attitude": -0.016,
+        "thermal": 19.507,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 219,
+      "t": 54.75,
+      "values": {
+        "power": 12.344,
+        "attitude": -0.014,
+        "thermal": 19.502,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 220,
+      "t": 55.0,
+      "values": {
+        "power": 12.351,
+        "attitude": -0.013,
+        "thermal": 19.5,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 221,
+      "t": 55.25,
+      "values": {
+        "power": 12.358,
+        "attitude": -0.011,
+        "thermal": 19.502,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 222,
+      "t": 55.5,
+      "values": {
+        "power": 12.366,
+        "attitude": -0.009,
+        "thermal": 19.508,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 223,
+      "t": 55.75,
+      "values": {
+        "power": 12.374,
+        "attitude": -0.007,
+        "thermal": 19.518,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 224,
+      "t": 56.0,
+      "values": {
+        "power": 12.382,
+        "attitude": -0.005,
+        "thermal": 19.531,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 225,
+      "t": 56.25,
+      "values": {
+        "power": 12.39,
+        "attitude": -0.003,
+        "thermal": 19.548,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 226,
+      "t": 56.5,
+      "values": {
+        "power": 12.398,
+        "attitude": -0.0,
+        "thermal": 19.569,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 227,
+      "t": 56.75,
+      "values": {
+        "power": 12.407,
+        "attitude": 0.002,
+        "thermal": 19.593,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 228,
+      "t": 57.0,
+      "values": {
+        "power": 12.415,
+        "attitude": 0.004,
+        "thermal": 19.621,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 229,
+      "t": 57.25,
+      "values": {
+        "power": 12.423,
+        "attitude": 0.006,
+        "thermal": 19.652,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 230,
+      "t": 57.5,
+      "values": {
+        "power": 12.431,
+        "attitude": 0.008,
+        "thermal": 19.687,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 231,
+      "t": 57.75,
+      "values": {
+        "power": 12.439,
+        "attitude": 0.01,
+        "thermal": 19.725,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 232,
+      "t": 58.0,
+      "values": {
+        "power": 12.447,
+        "attitude": 0.012,
+        "thermal": 19.766,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 233,
+      "t": 58.25,
+      "values": {
+        "power": 12.454,
+        "attitude": 0.014,
+        "thermal": 19.81,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 234,
+      "t": 58.5,
+      "values": {
+        "power": 12.461,
+        "attitude": 0.015,
+        "thermal": 19.857,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 235,
+      "t": 58.75,
+      "values": {
+        "power": 12.467,
+        "attitude": 0.017,
+        "thermal": 19.907,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 236,
+      "t": 59.0,
+      "values": {
+        "power": 12.473,
+        "attitude": 0.018,
+        "thermal": 19.96,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 237,
+      "t": 59.25,
+      "values": {
+        "power": 12.478,
+        "attitude": 0.019,
+        "thermal": 20.015,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 238,
+      "t": 59.5,
+      "values": {
+        "power": 12.483,
+        "attitude": 0.019,
+        "thermal": 20.073,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    },
+    {
+      "i": 239,
+      "t": 59.75,
+      "values": {
+        "power": 12.488,
+        "attitude": 0.02,
+        "thermal": 20.133,
+        "propulsion": 0.0
+      },
+      "status": {
+        "power": "NOMINAL",
+        "attitude": "NOMINAL",
+        "thermal": "NOMINAL",
+        "propulsion": "NOMINAL"
+      },
+      "state": "NOMINAL",
+      "fault": null
+    }
+  ]
+}
