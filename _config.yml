@@ -38,7 +38,9 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/og-image.png
+      image:
+        path: /assets/img/og-image.png
+        alt: "Aanal Patel — Embedded AI Engineer & Applied AI Researcher"
   - scope:
       path: ""
       type: posts
