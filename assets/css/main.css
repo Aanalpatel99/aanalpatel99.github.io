@@ -531,12 +531,43 @@ section:last-child {
   color: var(--text-muted);
 }
 
+.card-media img {
+  display: block;
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Responsive 16:9 video embed — swap in once a project has a real demo clip */
+.card-media.video-embed {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.card-media.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .project-card-canbus {
   background: linear-gradient(160deg, var(--bg-elevated), var(--bg));
   border-color: var(--accent);
 }
 
 .project-card-private .tag-locked {
+  color: var(--warning);
+  border-color: var(--warning);
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.tag-wip {
   color: var(--warning);
   border-color: var(--warning);
   background: rgba(245, 158, 11, 0.1);
