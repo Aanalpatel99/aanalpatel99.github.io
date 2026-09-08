@@ -17,6 +17,14 @@ author:
 github_username: aanalpatel99
 linkedin_url: "https://www.linkedin.com/in/aanalpatel21/"
 
+# Feeds the Person schema's `sameAs` links on the homepage (jekyll-seo-tag) —
+# helps search engines associate this site with these actual profiles.
+social:
+  name: Aanal Patel
+  links:
+    - "https://www.linkedin.com/in/aanalpatel21/"
+    - "https://github.com/aanalpatel99"
+
 # GoatCounter analytics — sign up free at https://www.goatcounter.com,
 # pick a site code (yields https://<code>.goatcounter.com), then uncomment
 # and set it below. Left unset, no analytics script is emitted at all.
