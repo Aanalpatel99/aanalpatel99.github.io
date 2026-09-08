@@ -3,6 +3,9 @@ description: Embedded AI Engineer & Applied AI Researcher building edge AI, comp
 url: "https://aanalpatel99.github.io"
 lang: en
 
+twitter:
+  card: summary_large_image
+
 # github-pages defaults to jekyll-theme-primer unless explicitly disabled —
 # this site uses its own hand-built layout/CSS, not a Pages theme.
 theme: null
@@ -13,6 +16,11 @@ author:
 
 github_username: aanalpatel99
 linkedin_url: "https://www.linkedin.com/in/aanalpatel21/"
+
+# GoatCounter analytics — sign up free at https://www.goatcounter.com,
+# pick a site code (yields https://<code>.goatcounter.com), then uncomment
+# and set it below. Left unset, no analytics script is emitted at all.
+# goatcounter_code: "your-code-here"
 
 plugins:
   - jekyll-seo-tag
@@ -27,6 +35,10 @@ collections:
     output: true
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/og-image.png
   - scope:
       path: ""
       type: posts
